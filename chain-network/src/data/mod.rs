@@ -3,6 +3,7 @@ pub mod fragment;
 pub mod gossip;
 mod handshake;
 pub mod p2p;
+pub mod watch;
 
 pub use block::{Block, BlockEvent, BlockId, BlockIds, Header};
 pub use fragment::{Fragment, FragmentId, FragmentIds};
